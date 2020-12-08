@@ -1,0 +1,59 @@
+section{
+    height: auto;
+    margin: auto;
+}
+
+.legenda_formulario{
+    font-family: 'Courgette', cursive;
+    margin: auto;
+    font-size: 20pt;
+}
+.campo{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+.input_formulario{
+    width: 100%;
+    visibility: visible;
+    display: inline-block;
+}
+
+#mensagem, #assunto{
+    width: 100%;
+}
+
+.botao {
+    display: flex;
+    margin: 0 auto;
+    font-size: 15pt;
+    background: rgb(98, 23, 8);
+    border-radius: 80px;
+    margin-bottom: 1em;
+    color: #FFF;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.botao:hover {
+    color: rgb(98, 23, 8);
+    font-weight: 900;
+    font-size: 15pt;
+    background: #FB0;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+.botao, select, label.checkbox {
+    cursor: pointer;
+}
+
+@media all and (max-width: 750px) {
+    .campo{
+        margin: auto;
+        width: 95%;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,53 @@
+.img_fundo{
+    float: left;
+    width: 96%;
+    margin:0 auto;
+
+}
+
+.img_home{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15%;
+    padding: 5%;
+}
+
+.section{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+
+@media only screen and (min-width: 769px){
+
+    .section{
+        width: 80%;
+        margin: 0 auto;
+
+    }
+    
+    .img_fundo{
+        width: 100%;
+        margin-bottom: 3%;
+    }
+
+    .img_home{
+        width: 45%;
+        float: left;
+        display: flex;
+        margin-left: 4%;
+        margin-bottom: 0%;
+    }
+
+    .leg{
+        position: relative;
+    }
+    .leg p{
+        text-justify: center;
+        display: inline-flex;
+        position: absolute;
+    }
+    
+}

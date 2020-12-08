@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.footer{
+    transform: translateY(0%);
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.img_icon{
+    margin-top: 15px;
+    margin-right: 5px;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.end, .contato, .sociais, .email{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.desenvolvedor{
+    color: rgb(246, 170, 28);
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: x-small;
+    text-decoration: none;
+}
+
+.texto_todape:hover, .contato:hover{
+    font-size: 102%;
+    text-shadow:0em 0em 0em rgb(246, 170, 28),
+                -0.1em 0.1em 0.1em rgba(246, 170, 28, 0.705),
+                0em -0em 0em rgb(246, 170, 28);
+}
+
+.img_icon:hover{
+	-moz-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}

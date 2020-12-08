@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: rgb(255, 225, 150);
+}
+
+footer{
+    background: rgb(34, 9, 1);
+    display: fixed;
+    bottom: 0%;
+}
